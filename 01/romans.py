@@ -1,6 +1,6 @@
-num = input("Digite um valor até 3000: ")
-i = len(num) - 1
-o = int(num)
+#num = input("Digite um valor até 3000: ")
+#i = len(num) - 1
+#o = int(num)
 
 def int_to_roman(num):
     if o > 3000:
@@ -89,8 +89,8 @@ def int_to_roman(num):
     
     return result
 
-print(f"O numero em romano é {int_to_roman(num)}")
-print("   tmj")
+#print(f"O numero em romano é {int_to_roman(num)}")
+#print("   tmj")
 
 def roman_to_int(s):
     roman_values = {
@@ -118,7 +118,7 @@ def roman_to_int(s):
     
     return total
 
-print("Agora: ")
-roman_number = input("Digite um número romano: ")
-inteiro_numero = roman_to_int(roman_number)
-print(f"O numero {roman_number} em inteiro fica {inteiro_numero}")
+#print("Agora: ")
+#roman_number = input("Digite um número romano: ")
+#inteiro_numero = roman_to_int(roman_number)
+#print(f"O numero {roman_number} em inteiro fica {inteiro_numero}")
